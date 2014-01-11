@@ -7,6 +7,7 @@ gem 'rails', '4.0.2'
 group :development do
 	gem 'sqlite3', '1.3.8'
 	gem 'rspec-rails', '2.11.0'
+	gem 'guard-rspec', '1.2.1'
 end
 
 group :assets do
@@ -22,6 +23,7 @@ gem 'jquery-rails', '3.0.4'
 
 group :test do
 	gem 'capybara', '1.1.2'
+	gem 'rspec-nc'
 end
 
 group :production do
